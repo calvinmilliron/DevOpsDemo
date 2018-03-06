@@ -7,7 +7,7 @@ import javax.jws.WebService;
 
 import com.revature.domain.Genre;
 
-@WebService(endpointInterface="com.revature.service.Library")
+@WebService(endpointInterface="com.revature.service.Catalog")
 public class CatalogImpl implements Catalog {
 
 	@Override
